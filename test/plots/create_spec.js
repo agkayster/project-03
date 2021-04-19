@@ -33,6 +33,9 @@ describe('POST /plots', () => {
 
   let token = null
 
+
+   
+
   beforeEach(done => {
     User.create(testUser)
       .then(user => {
