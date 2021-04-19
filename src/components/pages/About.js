@@ -6,17 +6,15 @@ const About = () => {
     <section className="section about-background">
       <div className="container">
         <div className="box tableBorder">
-          <h2 className="title is-3 has-white-text">About the Site</h2>
-          <p>
-            This site has been developed by Sian Alcock, Ejike Chiboka, Freddie
-            Hoy and Prash Mohan as part of a learning module in General
-            Assembly&lsquo;s Software Engineering Immersive Course using
-            JavaScript and React.{" "}
-          </p>
+
+          <h2 className="title is-3">About the Site</h2>
+          <p>This site has been developed by Sian Alcock, Ejike Chiboka, Freddie Hoy and Prash Mohan as part of a learning module in General Assembly&lsquo;s Software Engineering Immersive Course using JavaScript and React on the front end.  The backend employs a Mongo database using an Express framework and Mongoose. </p>
+
         </div>
 
         <div className="box tableBorder">
-          <h2>About Developers</h2>
+
+          <h2>About The Developers</h2>
           <hr />
           <div className="columns is-multiline">
             <div className="column is-one-quarter-desktop is-offset-one-half">
@@ -138,6 +136,7 @@ const About = () => {
             <li>• Tomatos, Onions & Potatos - Lars Blankers</li>
             <li>• Market Greens - Lou Liebau</li>
             <li>• Apples - Akshay Nanavati</li>
+            <li>• French local growing salad - Agence Producteurs Locaux Damien Kühn</li>
           </ul>
           <p>Icons made by smalllikeart from www.flaticon.com</p>
           <p>Smiling Carrot from www.vegetableislands.com</p>

@@ -75,7 +75,7 @@ class Edit extends React.Component {
                 value={this.state.formData.name || ''}
                 onChange={this.handleChange}
               />
-              {this.state.errors.name && <small className="help is-danger">{this.state.errors.name}</small>}
+              {this.state.errors.name && <small className="help">{this.state.errors.name}</small>}
             </div>
             <br />
             <div className="columns">
@@ -89,7 +89,7 @@ class Edit extends React.Component {
                   value={this.state.formData.streetAddress || ''}
                   onChange={this.handleChange}
                 />
-                {this.state.errors.streetAddress && <small className="help is-danger">{this.state.errors.streetAddress}</small>}
+                {this.state.errors.streetAddress && <small className="help">{this.state.errors.streetAddress}</small>}
               </div>
               <div className="column field">
                 <label className="label">Post Code</label>
@@ -101,7 +101,7 @@ class Edit extends React.Component {
                   value={this.state.formData.postCode || ''}
                   onChange={this.handleChange}
                 />
-                {this.state.errors.postCode && <small className="help is-danger">{this.state.errors.postCode}</small>}
+                {this.state.errors.postCode && <small className="help">{this.state.errors.postCode}</small>}
               </div>
               <div className="column field">
                 <label className="label">Description</label>
@@ -113,7 +113,7 @@ class Edit extends React.Component {
                   value={this.state.formData.description || ''}
                   onChange={this.handleChange}
                 />
-                {this.state.errors.description && <small className="help is-danger">{this.state.errors.description}</small>}
+                {this.state.errors.description && <small className="help">{this.state.errors.description}</small>}
               </div>
             </div>
             <div>
@@ -127,7 +127,7 @@ class Edit extends React.Component {
                   value={this.state.formData.description || ''}
                   onChange={this.handleChange}
                 />
-                {this.state.errors.description && <small className="help is-danger">{this.state.errors.description}</small>}
+                {this.state.errors.description && <small className="help">{this.state.errors.description}</small>}
               </div>
             </div>
             <br />
@@ -141,7 +141,7 @@ class Edit extends React.Component {
                 value={this.state.formData.image || ''}
                 onChange={this.handleChange}
               />
-              {this.state.errors.image && <small className="help is-danger">{this.state.errors.image}</small>}
+              {this.state.errors.image && <small className="help">{this.state.errors.image}</small>}
             </div>
             <br />
             <label className="label">Choose Plot Type:</label>
@@ -162,7 +162,7 @@ class Edit extends React.Component {
                 </div>
               </div>
             </div>
-            {this.state.errors.plotType && <small className="help is-danger">{this.state.errors.plotType}</small>}
+            {this.state.errors.plotType && <small className="help">{this.state.errors.plotType}</small>}
 
 
 
@@ -180,7 +180,7 @@ class Edit extends React.Component {
                     onChange={this.handleCheckbox}
                   /> Are there slots available?
                 </label>
-                {this.state.errors.slotsAvailable && <small className="help is-danger">{this.state.errors.slotsAvailable}</small>}
+                {this.state.errors.slotsAvailable && <small className="help">{this.state.errors.slotsAvailable}</small>}
               </div>
 
               <div className="column field">
@@ -191,7 +191,7 @@ class Edit extends React.Component {
                     name="bioWasteAccepted"
                     onChange={this.handleCheckbox}
                   /> Do you accept Biowaste?</label>
-                {this.state.errors.bioWasteAccepted && <small className="help is-danger">{this.state.errors.bioWasteAccepted}</small>}
+                {this.state.errors.bioWasteAccepted && <small className="help">{this.state.errors.bioWasteAccepted}</small>}
               </div>
 
               <div className="column field">
@@ -202,7 +202,7 @@ class Edit extends React.Component {
                     name="costInvolved"
                     onChange={this.handleCheckbox}
                   /> Cost involved?</label>
-                {this.state.errors.costInvolved && <small className="help is-danger">{this.state.errors.costInvolved}</small>}
+                {this.state.errors.costInvolved && <small className="help">{this.state.errors.costInvolved}</small>}
               </div>
 
               <div className="column field">
@@ -213,7 +213,7 @@ class Edit extends React.Component {
                     name="Volunteer"
                     onChange={this.handleCheckbox}
                   /> Offer volunteering?</label>
-                {this.state.errors.volunteer && <small className="help is-danger">{this.state.errors.volunteer}</small>}
+                {this.state.errors.volunteer && <small className="help">{this.state.errors.volunteer}</small>}
               </div>
             </div>
 
@@ -228,7 +228,7 @@ class Edit extends React.Component {
                 value={this.state.formData.numOfSlots || ''}
                 placeholder="add number of total slots"
               />
-              {this.state.errors.numOfSlots && <small className="help is-danger">{this.state.errors.numOfSlots}</small>}
+              {this.state.errors.numOfSlots && <small className="help">{this.state.errors.numOfSlots}</small>}
             </div>
 
             <div className="field">
@@ -241,7 +241,7 @@ class Edit extends React.Component {
                 value={this.state.formData.costPerAnnum || ''}
                 placeholder="£100"
               />
-              {this.state.errors.costPerAnnum && <small className="help is-danger">{this.state.errors.costPerAnnum}</small>}
+              {this.state.errors.costPerAnnum && <small className="help">{this.state.errors.costPerAnnum}</small>}
             </div>
 
             <div className="field">
@@ -254,7 +254,7 @@ class Edit extends React.Component {
                 value={this.state.formData.conditionsForUse || ''}
                 placeholder="put water"
               />
-              {this.state.errors.conditionsForUse && <small className="help is-danger">{this.state.errors.conditionsForUse}</small>}
+              {this.state.errors.conditionsForUse && <small className="help">{this.state.errors.conditionsForUse}</small>}
             </div>
 
             <div className="field">
@@ -267,7 +267,7 @@ class Edit extends React.Component {
                 onChange={this.handleChange}
                 placeholder="irrigation, watercan, free pots etc..."
               />
-              {this.state.errors.facilities && <small className="help is-danger">{this.state.errors.facilities}</small>}
+              {this.state.errors.facilities && <small className="help">{this.state.errors.facilities}</small>}
             </div>
 
             <hr />
@@ -283,7 +283,7 @@ class Edit extends React.Component {
                   placeholder="Mr Carrot"
                   value={this.state.formData.primaryContactName || ''}
                 />
-                {this.state.errors.primaryContactName && <small className="help is-danger">{this.state.errors.primaryContactName}</small>}
+                {this.state.errors.primaryContactName && <small className="help">{this.state.errors.primaryContactName}</small>}
               </div>
               <div className="column field">
                 <label className="label">Primary Contact Email </label>
@@ -295,7 +295,7 @@ class Edit extends React.Component {
                   placeholder="MrCarrot@gmail.com"
                   value={this.state.formData.primaryContactEmail || ''}
                 />
-                {this.state.errors.primaryContactEmail && <small className="help is-danger">{this.state.errors.primaryContactEmail}</small>}
+                {this.state.errors.primaryContactEmail && <small className="help">{this.state.errors.primaryContactEmail}</small>}
               </div>
             </div>
 

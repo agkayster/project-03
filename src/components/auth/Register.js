@@ -53,7 +53,7 @@ class Register extends React.Component {
                     onChange={this.handleChange}
                   />
                 </div>
-                {this.state.errors.username && <small className="help is-danger">{this.state.errors.username}</small>}
+                {this.state.errors.username && <small className="help">{this.state.errors.username}</small>}
               </div>
               <div className="field">
                 <label className="label">Email</label>
@@ -66,7 +66,7 @@ class Register extends React.Component {
                     onChange={this.handleChange}
                   />
                 </div>
-                {this.state.errors.email && <small className="help is-danger">{this.state.errors.email}</small>}
+                {this.state.errors.email && <small className="help">{this.state.errors.email}</small>}
               </div>
               <div className="field">
                 <label className="label">Password</label>
@@ -79,7 +79,7 @@ class Register extends React.Component {
                     onChange={this.handleChange}
                   />
                 </div>
-                {this.state.errors.password && <small className="help is-danger">{this.state.errors.password}</small>}
+                {this.state.errors.password && <small className="help">{this.state.errors.password}</small>}
               </div>
               <div className="field">
                 <label className="label">Password Confirmation</label>
@@ -92,7 +92,7 @@ class Register extends React.Component {
                     onChange={this.handleChange}
                   />
                 </div>
-                {this.state.errors.passwordConfirmation && <small className="help is-danger">{this.state.errors.passwordConfirmation}</small>}
+                {this.state.errors.passwordConfirmation && <small className="help">{this.state.errors.passwordConfirmation}</small>}
               </div>
               <div className="field">
                 <label className="label">Post Code</label>
@@ -104,7 +104,7 @@ class Register extends React.Component {
                     onChange={this.handleChange}
                   />
                 </div>
-                {this.state.errors.postCode && <small className="help is-danger">{this.state.errors.postCode}</small>}
+                {this.state.errors.postCode && <small className="help">{this.state.errors.postCode}</small>}
               </div>
               <hr />
               <button className="button">Submit</button>

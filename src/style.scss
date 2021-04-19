@@ -3,6 +3,7 @@
 $family-primary: 'Walter Turncoat', cursive;
 $family-secondary: 'Roboto', sans-serif;
 $title-color: #FFFFFF;
+$subtitle-color: #FFFFFF;
 $navbar-background-color: rgba(47,79,79, 1);
 $navbar-item-color: #FFFFFF;
 $box-color: #FFFFFF;
@@ -10,7 +11,7 @@ $text: #FFFFFF;
 $table-background-color: rgba(47,79,79, 0.8);
 $table-color: #FFFFFF;
 $box-background-color: rgba(47,79,79, 0.8);
-$table-row-hover-background-color:yellow;
+$table-row-hover-background-color: #00FFFF;
 $label-color: #FFFFFF;
 $gap: 80px;
 
@@ -44,7 +45,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
   }
@@ -68,6 +69,13 @@ body {
   }
 }
 
+h3.subtitle.is-size-3 {
+  margin: 0;
+}
+
+.before-control {
+  margin-bottom: 8px;
+}
 
 .index-background {
   background-image: url('https://images.unsplash.com/photo-1447175008436-054170c2e979?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2061&q=80');
@@ -79,6 +87,10 @@ body {
 
 .plants-background {
   background-image: url('https://images.unsplash.com/photo-1557207562-a3157143784e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+}
+
+.plants-show-background {
+  background-image: url('https://images.unsplash.com/photo-1506073881649-4e23be3e9ed0?ixlib=rb-1.2.1&auto=format&fit=crop&w=2534&q=80')
 }
 
 .add-background {
@@ -97,38 +109,42 @@ body {
   background-image: url('https://images.unsplash.com/photo-1549301014-95d119f5c960?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
 }
 
-.is-seed-period {
-  background-color: green;
-  border-radius: 15px;
-  width: 60px;
-  height: 20px;
-  margin: 5px;
-}
 .clearBackground{
   background-color: rgba(255, 255, 255, 0.4)
 }
 
 .plant-table td div {
-  width: 60px;
+  width: 40px;
   height: 20px;
 
   &.is-harvest-period {
     background-color: orange;
     border-radius: 15px;
-    margin: 5px;
+    justify-content:center;
+    margin: 5px 0;
   }
 
   &.is-seed-period {
-    padding: 10px;
+    background-color: green;
+    border-radius: 15px;
     justify-content:center;
+    margin: 5px 0;
   }
 }
 
-div.is-harvest-period-period {
-  padding: 600px;
-  justify-content:center;
+.orange{
+  background-color: orange;
   border-radius: 15px;
+  margin: auto 0;
 }
+
+.green{
+  background-color: green;
+  border-radius: 15px;
+  margin: auto 0;
+
+}
+
 .commentUser {
   color: #FFFFFF;
 }
@@ -235,43 +251,9 @@ label {
   margin: 100px auto;
 }
 
-
-
-.plant-container {
-  padding: 20px;
-  margin-right: 0px;
-  margin-left: 0px;
-  color: #FFFFFF;
-}
-
-.subtitle.key {
-  color: $table-color;
-}
-
-.orange{
-  background-color: orange;
-  color: white;
-  text-align: center;
-  border-radius: 15px;
-  margin: 10px;
-}
-
-.green{
-  background-color: green;
-  color: white;
-  text-align: center;
-  border-radius: 15px;
-  margin: 10px;
-}
-
-span.seed{
-  width: 2000px;
-  border: 10px solid green;
-}
-
 .tableBorder {
   border: 1px solid black;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 table.table.plant-table{
   background-color: white;
@@ -279,7 +261,7 @@ table.table.plant-table{
   margin: -10px;
   color: black;
   border: 5px solid black;
-  border-radius: 15px;
+
 }
 
 table thead.plant-head{
@@ -363,10 +345,6 @@ p.copyright{
   text-align: center;
 }
 
-p.plantprop{
-  text-align: center;
-}
-
 #menu-footer-menu{
   text-align: center;
   color: white;
@@ -403,10 +381,7 @@ svg.path{
 }
 
 img.plantimage {
-    height: auto;
-    max-width: 200px;
-    padding:0;
-    border-radius: 5px;
+    width: 100px;
 }
 
 div.box.tableKey{
@@ -422,6 +397,15 @@ canvas.mapboxgl-canvas {
 
 table.table {
   border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.help {
+  color: 	#00FFFF;
 }
 
 @keyframes up {

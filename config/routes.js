@@ -15,8 +15,13 @@ router.route('/plots')
   .get(plotsController.index)
   .post(secureRoute, plotsController.create)
 
+// plants INDEX route handler: EXPRESS
 router.route('/plants')
   .get(plantsController.index)
+
+// plants SHOW route handler: EXPRESS
+router.route('/plants/:id')
+  .get(plantsController.show)
 
 // plots SHOW, UPDATE & DELETE route handlers: EXPRESS
 router.route('/plots/:id')

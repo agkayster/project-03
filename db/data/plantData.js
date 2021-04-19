@@ -1,3 +1,5 @@
+
+
 module.exports = [{
   name: 'Beetroot',
   image: 'https://cdn-prod.medicalnewstoday.com/content/images/articles/277/277432/beetroot-on-a-white-background.jpg',
@@ -8,8 +10,8 @@ module.exports = [{
   sowUnderGlass: true,
   sowUnderDirectSunlight: true,
   propagator: true,
-  seedPeriod: ['April', 'May', 'June', 'July'],
-  harvestPeriod: ['June', 'July', 'August', 'September'],
+  seedPeriod: ['Apr', 'May', 'Jun', 'Jul'],
+  harvestPeriod: ['Jun', 'Jul', 'Aug', 'Sep'],
   destroyedBy: ['None']
 },{
   name: 'Broccolli',
@@ -21,8 +23,8 @@ module.exports = [{
   sowUnderGlass: false,
   sowUnderDirectSunlight: true,
   propagator: false,
-  seedPeriod: ['April', 'May'],
-  harvestPeriod: ['July', 'August', 'September'],
+  seedPeriod: ['Apr', 'May'],
+  harvestPeriod: ['Jul', 'Aug', 'Sep'],
   destroyedBy: ['Caterpillars']
 },{
   name: 'Borlloti Beans',
@@ -34,8 +36,8 @@ module.exports = [{
   sowUnderGlass: false,
   sowUnderDirectSunlight: true,
   propagator: true,
-  seedPeriod: ['April', 'May', 'June'],
-  harvestPeriod: ['July', 'August', 'September', 'October'],
+  seedPeriod: ['Apr', 'May', 'Jun'],
+  harvestPeriod: ['Jul', 'Aug', 'Sep', 'Oct'],
   destroyedBy: ['Slugs']
 },{
   name: 'Broad Beans',
@@ -47,8 +49,8 @@ module.exports = [{
   sowUnderGlass: false,
   sowUnderDirectSunlight: true,
   propagator: true,
-  seedPeriod: ['February, March, April', 'October', 'November'],
-  harvestPeriod: ['July, August, September', 'October'],
+  seedPeriod: ['Feb', 'Mar', 'Apr', 'Oct', 'Nov'],
+  harvestPeriod: ['Jul', 'Aug', 'Sep', 'Oct'],
   destroyedBy: ['Flies', 'Mice']
 },{
   name: 'Brussel Sprouts',
@@ -60,8 +62,8 @@ module.exports = [{
   sowUnderGlass: true,
   sowUnderDirectSunlight: true,
   propagator: false,
-  seedPeriod: ['March', 'April'],
-  harvestPeriod: ['January', 'August', 'September', 'October','November', 'December' ],
+  seedPeriod: ['Mar', 'Apr'],
+  harvestPeriod: ['Jan', 'Aug', 'Sep', 'Oct','Nov', 'Dec'],
   destroyedBy: ['Slugs']
 },{
   name: 'Cabbages',
@@ -73,9 +75,9 @@ module.exports = [{
   sowUnderGlass: false,
   sowUnderDirectSunlight: true,
   propagator: false,
-  seedPeriod: ['March', 'April'],
-  harvestPeriod: ['January', 'August', 'September', 'October','November', 'December' ],
-  destroyedBy: ['Slugs','Caterpillars']
+  seedPeriod: ['Mar', 'Apr'],
+  harvestPeriod: ['Jan', 'Aug', 'Sep', 'Oct','Nov', 'Dec' ],
+  destroyedBy: ['Slugs', 'Caterpillars']
 },{
   name: 'Carrots',
   image: 'https://www.tasteofhome.com/wp-content/uploads/2019/01/carrots-shutterstock_789443206-800x450.jpg',
@@ -86,8 +88,8 @@ module.exports = [{
   sowUnderGlass: false,
   sowUnderDirectSunlight: true,
   propagator: false,
-  seedPeriod: ['April', 'May', 'June', 'July'],
-  harvestPeriod: ['July', 'August', 'September', 'October'],
+  seedPeriod: ['Apr', 'May', 'Jun', 'Jul'],
+  harvestPeriod: ['Jul', 'Aug', 'Sep', 'Oct'],
   destroyedBy: ['Flies']
 },{
   name: 'Courgettes',
@@ -99,7 +101,7 @@ module.exports = [{
   sowUnderGlass: true,
   sowUnderDirectSunlight: true,
   propagator: true,
-  seedPeriod: ['April', 'May'],
-  harvestPeriod: ['July', 'August', 'September', 'October'],
+  seedPeriod: ['Apr', 'May'],
+  harvestPeriod: ['Jul', 'Aug', 'Sep', 'Oct'],
   destroyedBy: ['None']
 }]

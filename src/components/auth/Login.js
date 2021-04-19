@@ -72,7 +72,9 @@ class Login extends React.Component {
 									/>
 								</div>
 								{this.state.error && (
-									<small className='help is-danger'>{this.state.error}</small>
+									<small className='help'>
+										{this.state.error}
+									</small>
 								)}
 							</div>
 							<hr />

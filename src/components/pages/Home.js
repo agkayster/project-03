@@ -7,7 +7,7 @@ const Home = () => {
         <section className="hero is-large">
           <div className="title-container">
             <h1 className="title is-1">Lost the plot?</h1>
-            <h2 className="subtitle is-4">Find a space to grow stuff!</h2>
+            <h2 className="subtitle is-4">Find a space in London to grow sustainable plants and vegetables!</h2>
           </div>
         </section>
       </div>
