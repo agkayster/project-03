@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import AboutCard from '../common/AboutCard'
 
 const About = () => {
@@ -20,14 +20,14 @@ const About = () => {
             <div className="column is-one-quarter-desktop is-offset-one-half">
               <AboutCard
                 name="Sian Alcock"
-                image={"https://i.imgur.com/wusyZOE.jpg"}
+                image={'https://i.imgur.com/wusyZOE.jpg'}
                 githubLink={
                   <a
                     href="https://github.com/sian-alcock"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+                    {' '}
                     <i className="fab fa-github-square"></i>
                   </a>
                 }
@@ -37,7 +37,7 @@ const About = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+                    {' '}
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 }
@@ -47,14 +47,14 @@ const About = () => {
             <div className="column is-one-quarter-desktop is-offset-one-half">
               <AboutCard
                 name="Ejike Chiboka"
-                image={"https://i.imgur.com/owdRqwP.jpg"}
+                image={'https://i.imgur.com/owdRqwP.jpg'}
                 githubLink={
                   <a
                     href="https://github.com/agkayster"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+                    {' '}
                     <i className="fab fa-github-square"></i>
                   </a>
                 }
@@ -64,7 +64,7 @@ const About = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+                    {' '}
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 }
@@ -74,14 +74,14 @@ const About = () => {
             <div className="column is-one-quarter-desktop is-offset-one-half">
               <AboutCard
                 name="Freddie Hoy"
-                image={"https://i.imgur.com/mObm02y.jpg"}
+                image={'https://i.imgur.com/mObm02y.jpg'}
                 githubLink={
                   <a
                     href="https://github.com/FreddieHoy"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+                    {' '}
                     <i className="fab fa-github-square"></i>
                   </a>
                 }
@@ -91,7 +91,7 @@ const About = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+                    {' '}
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 }
@@ -101,14 +101,14 @@ const About = () => {
             <div className="column is-one-quarter-desktop is-offset-one-half">
               <AboutCard
                 name="Prash Mohan"
-                image={"https://i.imgur.com/vlFtdWv.jpg"}
+                image={'https://i.imgur.com/vlFtdWv.jpg'}
                 githubLink={
                   <a
                     href="https://github.com/strawberryrusty"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+                    {' '}
                     <i className="fab fa-github-square"></i>
                   </a>
                 }
@@ -118,7 +118,7 @@ const About = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
+                    {' '}
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 }
@@ -143,7 +143,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

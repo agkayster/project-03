@@ -13,12 +13,12 @@ function loginRoute(req, res, next) {
     .then(user => {
       // if the user does not exist OR the user password is not valid
       if(!user || !user.validatePassword(req.body.password)) {
-        return res.sendStatus(401) // send a 401 response
+        return res.sendStatus(401) // send a 401 response, Unauthorised
       }
-      // generate a token
+      // else generate a token
       const token = jwt.sign({ sub: user._id }, secret, { expiresIn: '6h' })
       // send it to the client
-      res.json({ message: `Welcome back ${user.username}!`, token, user})
+      res.json({ message: `Welcome back ${user.username}!`, token, user}) // relod the User login page
     })
     .catch(next)
 }

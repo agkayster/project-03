@@ -11,7 +11,7 @@ const router = require('./config/routes')
 const errorHandler = require('./lib/errorHandler')
 const { port, dbURI } = require('./config/environment')
 
-const app = express() // create a HTTP request handler: EXPRESS
+const app = express() // create the app
 
 // Connect to a specific database: MONGOOSE
 mongoose.connect(dbURI, { useNewUrlParser: true })
